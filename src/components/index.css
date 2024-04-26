@@ -1,0 +1,29 @@
+.modal-body .d-flex {
+    display: flex;
+    align-items: start; /* Align items vertically at the start */
+  }
+  
+  .modal-body img {
+    flex: 0 0 50%; /* Do not grow or shrink but base width is 50% */
+    margin-right: 20px; /* Space between the image and text */
+  }
+  
+  .modal-body div {
+    flex: 1; /* Take up the remaining space */
+  }
+  @media (max-width: 768px) {
+    .modal-body .d-flex {
+      flex-direction: column;
+    }
+  
+    .modal-body img {
+      width: 100%;
+      margin-right: 0; /* Remove margin on smaller screens */
+    }
+  
+    .modal-body div {
+      flex: none; /* Reset flex settings for mobile */
+      width: 100%;
+    }
+  }
+    
