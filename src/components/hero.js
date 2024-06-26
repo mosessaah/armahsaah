@@ -10,7 +10,6 @@ const socialLinks = [
     { id: 'instagram', icon: <FaInstagram />, href: 'https://instagram.com/armahsaahjr' },
   ];
 
-
 const hero = () => {
     return (
         <div id="ts-hero" class="ts-animate-hero-items">

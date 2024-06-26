@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactDOM } from 'react';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Main from './components/main';

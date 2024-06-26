@@ -26,3 +26,4 @@ function adjustFullScreenHeight() {
         fullScreenElements[0].style.height = window.innerHeight + "px";
     }
 }
+
